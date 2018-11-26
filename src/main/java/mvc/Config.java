@@ -12,13 +12,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc
 @ComponentScan("mvc")
-public class Config{
+public class Config extends WebMvcConfigurerAdapter{
 
-    @Bean
-    public ViewResolver viewResolver(){
-        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/views");
-        viewResolver.setSuffix(".jsp");
-        return viewResolver;
+    @Override
+    public void configureViewResolvers(ViewResolverRegistry registry) {
+        //WEB-INF/view/home.jsp
+        registry.jsp("WEB-INF/view/", ".jsp");
     }
 }
