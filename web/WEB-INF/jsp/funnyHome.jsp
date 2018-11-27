@@ -1,20 +1,18 @@
 <%--
   Created by IntelliJ IDEA.
   User: karol
-  Date: 2018-11-26
-  Time: 22:58
+  Date: 2018-11-27
+  Time: 21:50
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--<c:set var="contextPath" value="${pageContext.request.contextPath}"/>--%>
 <html>
 <head>
-    <title>Title</title>
+    <title>Funny</title>
 </head>
 <body>
-<h1>Welcome on the Internet</h1>
-<h2>
-    <a href="showForm">Hello world form</a>
-</h2>
+<h1>
+    Welcome to funny page!
+</h1>
 </body>
 </html>
