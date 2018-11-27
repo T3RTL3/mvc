@@ -12,4 +12,9 @@ public class HomeController {
     public String home(){
         return "home";
     }
+    @RequestMapping("/showForm")
+    public String showForm(){
+        return "showForm";
+
+    }
 }
