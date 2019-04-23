@@ -18,7 +18,7 @@ This is my first pure Spring MVC project. I have learnt the structure of MVC app
  *Apache Tomcat Server
  
  
- # Conclusions
+ # Knowledge
  I have learned:</br>
  model-view-controller architecture </br>
  java server pages</br>
